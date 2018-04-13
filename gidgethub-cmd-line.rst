@@ -22,7 +22,7 @@ Create GitHub Personal Access Token
 In order to use GitHub API, you'll need to create a personal access token
 that will be used to authenticate yourself to GitHub.
 
-1. Go go https://github.com/settings/tokens.
+1. Go to https://github.com/settings/tokens.
 
    Or, from GitHub, go to your `Profile Settings`_ > `Developer Settings`_ > `Personal access tokens`_.
 
