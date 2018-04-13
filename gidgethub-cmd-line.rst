@@ -26,7 +26,7 @@ that will be used to authenticate yourself to GitHub.
 
    Or, from GitHub, go to your `Profile Settings`_ > `Developer Settings`_ > `Personal access tokens`_.
 
-2. Click Generate new token
+2. Click Generate new token.
 
 3. Under ``Token description``, enter a short description, to identify the purpose
    of this token. I recommend something like: ``pycon bot tutorial``.
@@ -34,8 +34,9 @@ that will be used to authenticate yourself to GitHub.
 4. Under select scopes, check the ``repo`` scope. You can read all about the available
    scopes `here <https://developer.github.com/apps/building-oauth-apps/scopes-for-oauth-apps/>`_.
    In this tutorial, we'll only be using the token to work with repositories,
-   and nothing else. But this can be edited later. The ``repo`` scope allows you
-   to
+   and nothing else. But this can be edited later. What the ``repo`` scope allows your
+   bot to do is explained in
+   `GitHub's scope documentation <https://developer.github.com/apps/building-oauth-apps/scopes-for-oauth-apps/#available-scopes>`__.
 
 5. Press generate. You will see a really long string (40 characters). Copy that,
    and paste it locally in a text file for now.
