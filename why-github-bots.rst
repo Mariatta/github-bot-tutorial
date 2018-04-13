@@ -61,7 +61,7 @@ Some tasks that bedevere-bot does:
 miss-islington
 ''''''''''''''
 
-Source code: https://github.com/python/miss-islington>
+Source code: https://github.com/python/miss-islington
 
 Automatically create backport pull requests and reminds core devs that status checks
 are completed.
