@@ -47,7 +47,7 @@ If you have any feedback or questions about this tutorial, please file an issue.
 - E-mail: mariatta@python.org
 - Twitter: `@mariatta <https://twitter.com/mariatta>`_
 - `Mariatta on GitHub <https://github.com/mariatta>`_
-- `Mariatta on Patreon <https://www.patreon.com.Mariatta>`_
+- `Mariatta on Patreon <https://www.patreon.com/Mariatta>`_
 
 Know of other places, conferences, or events where I can give this tutorial?
 Let me know!
