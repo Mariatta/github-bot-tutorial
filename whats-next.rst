@@ -47,3 +47,9 @@ Error handling
 ''''''''''''''
 
 `gidgethub exceptions <https://gidgethub.readthedocs.io/en/latest/__init__.html>`_ documentation.
+
+Shout out to your bot
+---------------------
+
+Share with the world the bot that you just made. This is completely optional, but
+highly encouraged. Go to the :ref:hall_of_fame for more details.

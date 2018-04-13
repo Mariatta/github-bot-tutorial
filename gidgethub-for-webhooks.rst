@@ -271,6 +271,8 @@ event payload by doing ``event.data``.
 ``gh`` is the gidgethub GitHub API, which we've used in the previous section to
 make API calls to GitHub.
 
+.. _greet_author:
+
 Leave a comment whenever an issue is opened
 '''''''''''''''''''''''''''''''''''''''''''
 
@@ -402,6 +404,8 @@ Once deployed, try and create an issue in the repo. See your bot in action!!
 
 Congrats! You now have a bot in place! Let's give it another job.
 
+.. _say_thanks:
+
 Say thanks when an issue has been merged
 ''''''''''''''''''''''''''''''''''''''''
 
@@ -420,6 +424,8 @@ Try it on your own.
 **Note**: A pull request can be closed without it getting merged. You'll need
 a way to determine whether the pull request was merged, or simply closed.
 
+.. _react_to_comments:
+
 React to issue comments
 '''''''''''''''''''''''
 
@@ -437,6 +443,8 @@ Try it out on your own.
 - The example payload for the event is here: https://developer.github.com/v3/activity/events/types/#webhook-payload-example-9
 
 - The API documentation for reacting to an issue comment is here: https://developer.github.com/v3/reactions/#create-reaction-for-an-issue-comment
+
+.. _label_prs:
 
 Label the pull request
 ''''''''''''''''''''''

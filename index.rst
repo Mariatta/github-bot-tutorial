@@ -15,13 +15,13 @@ your own project. We'll use libraries called `gidgethub <https://gidgethub.readt
 and `aiohttp <https://aiohttp.readthedocs.io>`_ to write a
 GitHub bot that does the following:
 
-  - Greet the person who created an issue in your project.
+  - :ref:`Greet the person who created an issue in your project <greet_author>`.
 
-  - Say thanks when a pull request has been closed.
+  - :ref:`Say thanks when a pull request has been closed <say_thanks>`.
 
-  - Apply a label to issues or pull requests.
+  - :ref:`Apply a label to issues or pull requests <label_prs>`.
 
-  - Gives a thumbs up reaction to comments you made. (becoming your own personal cheer squad).
+  - :ref:`Gives a thumbs up reaction to comments you made <react_to_comments>`. (becoming your own personal cheer squad).
 
 The best part is, you get to do all of the above using Python 3.6! F-strings included!
 
@@ -76,4 +76,5 @@ Agenda
    gidgethub-cmd-line
    gidgethub-for-webhooks
    whats-next
+   hall-of-fame
    git-basics
