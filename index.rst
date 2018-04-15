@@ -42,7 +42,7 @@ I'm a Python Core Developer. I help maintain Core Python's GitHub bots:
 We'll be using the same tools and technologies used by Core Python's
 team to build their bots.
 
-If you have any feedback or questions about this tutorial, please file an issue.
+If you have any feedback or questions about this tutorial, please `file an issue <https://github.com/Mariatta/github-bot-tutorial/issues/new>`_.
 
 - E-mail: mariatta@python.org
 - Twitter: `@mariatta <https://twitter.com/mariatta>`_

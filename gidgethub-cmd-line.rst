@@ -134,11 +134,11 @@ and ``body``.
 
 With gidgethub, this looks like the following::
 
-   gh.post('/repos/mariatta/strange-relationship/issues',
-           data={
-               'title': 'We got a problem',
-               'body': 'Use more emoji!',
-           })
+   await gh.post('/repos/mariatta/strange-relationship/issues',
+                 data={
+                     'title': 'We got a problem',
+                     'body': 'Use more emoji!',
+                 })
 
 Go ahead and add the above code right after you instantiate GitHubAPI.
 
@@ -152,11 +152,11 @@ Your file should now look like the following::
     async def main():
        async with aiohttp.ClientSession() as session:
            gh = GitHubAPI(session, "mariatta", oauth_token=os.getenv(GH_AUTH))
-           gh.post('/repos/mariatta/strange-relationship/issues',
-           data={
-               'title': 'We got a problem',
-               'body': 'Use more emoji!',
-           })
+           await gh.post('/repos/mariatta/strange-relationship/issues',
+                 data={
+                     'title': 'We got a problem',
+                     'body': 'Use more emoji!',
+                 })
 
     loop = asyncio.get_event_loop()
     loop.run_until_complete(main())
@@ -190,9 +190,9 @@ editing an issue, and setting the ``state`` to ``closed``.
 
 Use gidgethub to patch the issue::
 
-   gh.patch('/repos/mariatta/strange-relationship/issues/28',
-            data={'state', 'closed'},
-   )
+   await gh.patch('/repos/mariatta/strange-relationship/issues/28',
+                  data={'state', 'closed'},
+                  )
 
 
 Replace ``28`` with the issue number you created.
