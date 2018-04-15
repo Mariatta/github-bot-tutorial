@@ -10,5 +10,5 @@ Before coming to the tutorial, please do the following:
 2. Create a `Heroku <https://heroku.com>`_ account. Your bot will be deployed to
    Heroku.
 
-3. Have Python 3.6 installed in your laptop. Download it `here <https://www.python.org/downloads/>`_
+3. Have Python 3.6 installed in your laptop. Download it `here <https://www.python.org/downloads/>`_.
 

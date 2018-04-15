@@ -283,7 +283,7 @@ actually create the comment.
 We've done this in the previous section on the command line. You will recall
 the code is something like the following::
 
-   gh.post(url, data={"body": message})
+   await gh.post(url, data={"body": message})
 
 Let's think about the ``url`` in this case. Previously, you might have constructed
 the url manually as follows::
