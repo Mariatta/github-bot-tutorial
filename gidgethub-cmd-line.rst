@@ -191,7 +191,7 @@ editing an issue, and setting the ``state`` to ``closed``.
 Use gidgethub to patch the issue::
 
    await gh.patch('/repos/mariatta/strange-relationship/issues/28',
-                  data={'state', 'closed'},
+                  data={'state': 'closed'},
                   )
 
 
