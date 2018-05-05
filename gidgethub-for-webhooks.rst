@@ -228,6 +228,8 @@ Next, add the following imports::
    from gidgethub import routing, sansio
    from gidgethub import aiohttp as gh_aiohttp
 
+   router = routing.Router()
+
 
 Update the **main** coroutine, instead of printing out "Hello World"::
 
