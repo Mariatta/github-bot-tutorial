@@ -350,7 +350,7 @@ comment::
        author = event.data["issue"]["user"]["login"]
 
        message = f"Thanks for the report @{author}! I will look into it ASAP! (I'm a bot)."
-       await gh.post(url, data={"body": message}
+       await gh.post(url, data={"body": message})
 
 
 Your entire **__main__.py** should look like the following::
