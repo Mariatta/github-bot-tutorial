@@ -78,7 +78,12 @@ Example::
    # f-string
    print(f"Hello {first_name} {last_name}")
   
-  
+asyncio
+-------
+
+Both `gidgethub` and `aiohttp` are async libraries. Read up the `quick intro <https://www.blog.pythonlibrary.org/2016/07/26/python-3-an-intro-to-asyncio/>`_
+to asyncio.
+
 Heroku
 ------
 
