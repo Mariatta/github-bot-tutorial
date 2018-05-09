@@ -56,6 +56,29 @@ aiohttp
 
 - Owner: `Andrew Svetlov <http://asvetlov.blogspot.ca/>`_
 
+
+f-strings
+---------
+
+We will use some f-strings during this tutorial.
+
+My `talk <https://speakerdeck.com/mariatta/pep-498-the-monologue>`_ about f-strings.
+
+Example::
+
+   first_name = "bart"
+   last_name = "simpson"
+   
+   # old style %-formatting
+   print("Hello %s %s" % (first_name, last_name))
+   
+   # str.format
+   print("Hello {first_name} {last_name}".format(first_name=first_name, last_name=last_name))
+   
+   # f-string
+   print(f"Hello {first_name} {last_name}")
+  
+  
 Heroku
 ------
 
@@ -74,3 +97,6 @@ Heroku
 .. _`aiohttp documentation`: https://aiohttp.readthedocs.io
 
 .. _`Python on Heroku`: https://devcenter.heroku.com/categories/python
+
+
+   
