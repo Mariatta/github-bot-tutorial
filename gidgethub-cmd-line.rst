@@ -13,8 +13,8 @@ is recommended.
 
 ::
 
-   pip install gidgethub
-   pip install aiohttp
+   python3.6 -m pip install gidgethub
+   python3.6 -m pip install aiohttp
 
 Create GitHub Personal Access Token
 -----------------------------------
@@ -80,7 +80,7 @@ Copy the following into ``create_issue.py``::
 
 Save and run it in the command line::
 
-    python3 -m create_issue
+    python3.6 -m create_issue
 
 
 You should see "Hello world." printed. That was "Hello world" with asyncio! 😎
