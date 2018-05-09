@@ -13,7 +13,7 @@ For this tutorial, we'll use ``venv``.
 
 Create a new virtual environment using venv::
 
-   python3 -m venv tutorial-env
+   python3.6 -m venv tutorial-env
 
 Activate the virtual environment. On Unix, Mac OS::
 
