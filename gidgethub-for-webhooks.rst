@@ -151,8 +151,10 @@ When you see "Your app was successfully deployed", click on the "View" button.
 
 You should see "Hello world.". Copy the website URL.
 
-Tip: Install the Papertrail add-on in Heroku to see your logs. Do that from your
-Heroku dashboard > Add-ons > type "papertrail" in the Add-ons search box.
+Tip: Install Heroku toolbelt to see your logs. Once you have Heroku toolbelt installed,
+you can read the logs by::
+
+   heroku logs -a <app name>
 
 
 Add the GitHub Webhook
