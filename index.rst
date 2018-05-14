@@ -26,7 +26,7 @@ GitHub bot that does the following:
 The best part is, you get to do all of the above using Python 3.6! F-strings included!
 
 This tutorial is for `PyCon US 2018 <https://us.pycon.org/2018/schedule/presentation/41/>`_
-in Cleveland, Ohio. It will be recorded, and uploaded here once available.
+in Cleveland, Ohio. Video recording is `here <https://youtu.be/ZwvjtCjimiw>`.
 
 About me
 ========
