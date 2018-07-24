@@ -87,6 +87,7 @@ html_theme_options = {
     'github_type': 'star',
     'github_banner': True,
     'description': 'a.k.a an introduction to gidgethub',
+    'show_relbars': True,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
