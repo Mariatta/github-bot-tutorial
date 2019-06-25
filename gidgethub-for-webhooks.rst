@@ -298,7 +298,7 @@ When we receive the webhook event however, the issue comment url is actually
 supplied in the payload.
 
 Take a look at GitHub's issue event payload `example
-<https://developer.github.com/v3/activity/events/types/#webhook-payload-example-10>`_.
+<https://developer.github.com/v3/activity/events/types/#webhook-payload-example-15>`_.
 
 It's a big JSON object. The portion we're interested in is::
 
@@ -421,7 +421,7 @@ when the ``action`` to the event is ``closed``.
 For reference, the relevant GitHub API documentation for the ``pull_request`` event
 is here: https://developer.github.com/v3/activity/events/types/#pullrequestevent.
 
-The example payload for this event is here: https://developer.github.com/v3/activity/events/types/#webhook-payload-example-22
+The example payload for this event is here: https://developer.github.com/v3/activity/events/types/#webhook-payload-example-28
 
 Try it on your own.
 
@@ -444,7 +444,7 @@ Try it out on your own.
 
 - The relevant documentation is here: https://developer.github.com/v3/activity/events/types/#issuecommentevent
 
-- The example payload for the event is here: https://developer.github.com/v3/activity/events/types/#webhook-payload-example-9
+- The example payload for the event is here: https://developer.github.com/v3/activity/events/types/#webhook-payload-example-14
 
 - The API documentation for reacting to an issue comment is here: https://developer.github.com/v3/reactions/#create-reaction-for-an-issue-comment
 
