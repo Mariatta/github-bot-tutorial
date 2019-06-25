@@ -77,13 +77,16 @@ Edit ``__main__.py`` as follows::
 
     from aiohttp import web
 
+    routes = web.RouteTableDef()
+
+    @routes.get("/")
     async def main(request):
         return web.Response(status=200, text="Hello world!")
 
 
     if __name__ == "__main__":
         app = web.Application()
-        app.router.add_get("/", main)
+        app.add_routes(routes)
         port = os.environ.get("PORT")
         if port is not None:
             port = int(port)
@@ -213,11 +216,11 @@ Go to the ``__main__.py`` file, in your webservice codebase.
 
 The first change the part where we did::
 
-   app.router.add_get("/", main)
+   @routes.get("/")
 
 into::
 
-   app.router.add_post("/", main)
+   @routes.post("/")
 
 This is because GitHub will send you **POST** requests to the webhook instead of **GET**.
 
@@ -365,6 +368,8 @@ Your entire **__main__.py** should look like the following::
     from gidgethub import routing, sansio
     from gidgethub import aiohttp as gh_aiohttp
 
+    routes = web.RouteTableDef()
+
     router = routing.Router()
 
     @router.register("issues", action="opened")
@@ -378,6 +383,7 @@ Your entire **__main__.py** should look like the following::
         message = f"Thanks for the report @{author}! I will look into it ASAP! (I'm a bot)."
         await gh.post(url, data={"body": message})
 
+    @routes.post("/")
     async def main(request):
         body = await request.read()
 
@@ -394,7 +400,7 @@ Your entire **__main__.py** should look like the following::
 
     if __name__ == "__main__":
         app = web.Application()
-        app.router.add_post("/", main)
+        app.add_routes(routes)
         port = os.environ.get("PORT")
         if port is not None:
             port = int(port)
